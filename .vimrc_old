@@ -1,6 +1,24 @@
 set nocompatible              " be iMproved, required
-
-filetype on
+filetype on                   " required
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+" Code completion is the best thing ever
+Plugin 'Valloric/YouCompleteMe'
+" Not using syntastic on gentoo since errors
+" Plugin 'vim-syntastic/syntastic'
+" File directory traverser
+Plugin 'scrooloose/nerdtree'
+" Adds useful info in a status bar at the bottom of the window
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'rhysd/vim-clang-format'
+" For traversing function definitions etc
+Plugin 'taglist.vim'
+Plugin 'skywind3000/vim-preview'
+Plugin 'DoxygenToolkit.vim'
+call vundle#end()
 filetype plugin indent on "enable indents
 
 set backspace=indent,eol,start
@@ -22,18 +40,18 @@ set showcmd
 
 set t_Co=256
 syntax enable "enables syntax colors
-colorscheme gruvbox "changes the syntax colors
+colorscheme deus "changes the syntax colors
 
 let mapleader=","
 let NERDTreeShowLineNumbers=1
 let NERDTreeWinSize=60
-let g:airline_theme='gruvbox'
+let g:airline_theme='deus'
 let g:airline#extensions#tabline#enabled = 1
 
 " YCM
-let g:ycm_show_diagnostics_ui = 0 " uncomment if syntastic is preferred
+" let g:ycm_show_diagnostics_ui = 0 " uncomment if syntastic is preferred
 let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
+" let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_always_populate_location_list = 1
 let g:ycm_collect_identifiers_from_tags_files = 1
 
@@ -44,17 +62,17 @@ let s:tlist_def_cpp_settings='c++;n:namespace;v:variable;d:macro;t:typedef;' .
                           \  'p:prototype'
 
 " Syntastic
-set statusline+=%Warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%Warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_cpp_checkers = ['clang_check', 'clang_tidy', 'gcc', 'cppcheck']
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_cpp_compiler_options = "-std=c++17 -Wall"
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_cpp_checkers = ['clang_check', 'clang_tidy', 'gcc', 'cppcheck']
+" let g:syntastic_aggregate_errors = 1
+" let g:syntastic_cpp_compiler_options = "-std=c++17 -Wall"
 
 " OLD settings here
 " let g:syntastic_cpp_checkers = ['clang_check', 'gcc', 'cppcheck']

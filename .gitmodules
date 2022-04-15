@@ -1,0 +1,30 @@
+[submodule ".vim/plugs/start/vim-preview"]
+	path = .vim/plugs/start/vim-preview
+	url = https://github.com/skywind3000/vim-preview.git
+[submodule ".vim/plugs/start/gruvbox"]
+	path = .vim/plugs/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule ".vim/plugs/start/nerdtree"]
+	path = .vim/plugs/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule ".vim/plugs/start/syntastic"]
+	path = .vim/plugs/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/plugs/start/taglist"]
+	path = .vim/plugs/start/taglist
+	url = https://github.com/yegappan/taglist.git
+[submodule ".vim/plugs/start/vim-airline"]
+	path = .vim/plugs/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule ".vim/plugs/start/vim-clang-format"]
+	path = .vim/plugs/start/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
+[submodule ".vim/plugs/start/vim-fugitive"]
+	path = .vim/plugs/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/plugs/start/YouCompleteMe"]
+	path = .vim/plugs/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
+[submodule ".vim/plugs/start/vim-airline-themes"]
+	path = .vim/plugs/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
