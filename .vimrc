@@ -3,6 +3,24 @@ set nocompatible              " be iMproved, required
 filetype on
 filetype plugin indent on "enable indents
 
+" packadd! will add the packages at the end of reading the .vimrc file
+if &loadplugins
+  if has('packages')
+    packadd! gruvbox
+    packadd! nerdtree
+    packadd! syntastic
+    packadd! taglist
+    packadd! vim-airline
+    packadd! vim-airline-themes
+    packadd! vim-clang-format
+    packadd! vim-fugitive
+    packadd! vim-preview
+    packadd! YouCompleteMe
+  endif
+endif
+
+set bg=dark
+
 set backspace=indent,eol,start
 set autoindent
 set tabstop=4 "number of visual spaces per tab
@@ -27,7 +45,7 @@ colorscheme gruvbox "changes the syntax colors
 let mapleader=","
 let NERDTreeShowLineNumbers=1
 let NERDTreeWinSize=60
-let g:airline_theme='gruvbox'
+let g:airline_theme='deus'
 let g:airline#extensions#tabline#enabled = 1
 
 " YCM
