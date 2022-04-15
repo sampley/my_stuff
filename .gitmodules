@@ -1,30 +1,30 @@
-[submodule ".vim/plugs/start/vim-preview"]
-	path = .vim/plugs/start/vim-preview
+[submodule ".vim/plugs/pack/opt/vim-preview"]
+	path = .vim/plugs/pack/opt/vim-preview
 	url = https://github.com/skywind3000/vim-preview.git
-[submodule ".vim/plugs/start/gruvbox"]
-	path = .vim/plugs/start/gruvbox
+[submodule ".vim/plugs/pack/opt/gruvbox"]
+	path = .vim/plugs/pack/opt/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
-[submodule ".vim/plugs/start/nerdtree"]
-	path = .vim/plugs/start/nerdtree
+[submodule ".vim/plugs/pack/opt/nerdtree"]
+	path = .vim/plugs/pack/opt/nerdtree
 	url = https://github.com/preservim/nerdtree.git
-[submodule ".vim/plugs/start/syntastic"]
-	path = .vim/plugs/start/syntastic
+[submodule ".vim/plugs/pack/opt/syntastic"]
+	path = .vim/plugs/pack/opt/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule ".vim/plugs/start/taglist"]
-	path = .vim/plugs/start/taglist
+[submodule ".vim/plugs/pack/opt/taglist"]
+	path = .vim/plugs/pack/opt/taglist
 	url = https://github.com/yegappan/taglist.git
-[submodule ".vim/plugs/start/vim-airline"]
-	path = .vim/plugs/start/vim-airline
+[submodule ".vim/plugs/pack/opt/vim-airline"]
+	path = .vim/plugs/pack/opt/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule ".vim/plugs/start/vim-clang-format"]
-	path = .vim/plugs/start/vim-clang-format
+[submodule ".vim/plugs/pack/opt/vim-clang-format"]
+	path = .vim/plugs/pack/opt/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format.git
-[submodule ".vim/plugs/start/vim-fugitive"]
-	path = .vim/plugs/start/vim-fugitive
+[submodule ".vim/plugs/pack/opt/vim-fugitive"]
+	path = .vim/plugs/pack/opt/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".vim/plugs/start/YouCompleteMe"]
-	path = .vim/plugs/start/YouCompleteMe
+[submodule ".vim/plugs/pack/opt/YouCompleteMe"]
+	path = .vim/plugs/pack/opt/YouCompleteMe
 	url = https://github.com/ycm-core/YouCompleteMe.git
-[submodule ".vim/plugs/start/vim-airline-themes"]
-	path = .vim/plugs/start/vim-airline-themes
+[submodule ".vim/plugs/pack/opt/vim-airline-themes"]
+	path = .vim/plugs/pack/opt/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
